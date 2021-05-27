@@ -19,10 +19,10 @@ function run(){
   let result2 = solution(clothes2)
   let answer2 = 3
   console.log(result2===answer2? 'success':'failed')
-  //let clothes3 = [["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"],  ["green_turban", "headgear"], ["yellowhat", "headgear"], ["bluesunglasses", "eyewear"]]
-  //let result3 = solution(clothes3)
-  //let answer3 = 3
-  //console.log(result3)
+  let clothes3 = [["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"],  ["green_turban", "headgear"], ["yellowhat", "headgear"], ["bluesunglasses", "eyewear"]]
+  let result3 = solution(clothes3)
+  let answer3 = 23
+  console.log(result3===answer3? 'success':'failed')
 }
 
 function solution(clothes) {
