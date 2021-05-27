@@ -11,7 +11,6 @@
  * 효율성 0
  * 총     0
  **/ 
-
 function run(){
   let clothes1 = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]
   let result1 = solution(clothes1)
@@ -23,5 +22,8 @@ function run(){
 
 function solution(clothes) {
   var answer = 0;
+  console.log(clothes)
   return answer;
 }
+
+run()

@@ -13,8 +13,6 @@
  * 총     100
  **/ 
 
-run()
-
 function run() {
     console.log('start run')
     let participantCase1 = ["leo", "kiki", "eden"]
@@ -52,3 +50,5 @@ function solution(participant, completion) {
     })
     return answer;
 }
+
+run()
