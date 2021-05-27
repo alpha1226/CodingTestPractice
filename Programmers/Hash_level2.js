@@ -1,15 +1,15 @@
 /**
  * Type: hash
- * Level: 1
- * Title: 완주하지 못한 선수
+ * Level: 2
+ * Title: 위장
  * on 2021.05.27
  * @param clothes [[의상 이름, 의상 종류], ...]
  * @returns [의상 조합 수]
  * 
  * 결과
- * 정확성 50
- * 효율성 500
- * 총     100
+ * 정확성 0
+ * 효율성 0
+ * 총     0
  **/ 
 
 function run(){
