@@ -3,9 +3,9 @@
  * Level: 1
  * Title: 완주하지 못한 선수
  * on 2021.05.27
- * @param [] participant 참여 선수
- * @param [] completion  완주 선수
- * @returns [] 완주하지 못한 선수
+ * @param participant [참여 선수]
+ * @param completion  [완주 선수]
+ * @returns [완주하지 못한 선수]
  * 
  * 결과
  * 정확성 50
