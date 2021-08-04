@@ -1,3 +1,5 @@
+// 11654 아스키 코드
+
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
@@ -7,7 +9,5 @@ var reader = require('readline').createInterface({
 });
 reader.on('line', (line) => {
   let data = line.split(' ')
-  console.log(data)
-}).on('close', () => {
-
-})
+  console.log(data[0].charCodeAt(0))
+});

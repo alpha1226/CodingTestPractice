@@ -1,3 +1,4 @@
+// 단어의 개수
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
@@ -7,7 +8,7 @@ var reader = require('readline').createInterface({
 });
 reader.on('line', (line) => {
   let data = line.split(' ')
-  console.log(data)
-}).on('close', () => {
-
-})
+  let refactData= []
+  data.map(r => r!=='' ? refactData.push(r) : '')
+  console.log(refactData.length)
+});
