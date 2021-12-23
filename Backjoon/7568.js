@@ -22,7 +22,7 @@ reader.on('line', (line) => {
   for(let i=0;i<itemArray.length; i++){
     let rank = 1;
     for(let o=0; o<itemArray.length; o++){
-      if(itemArray[i].x < itemArray[o].x && itemArray[i].y < itemArray[o].y){
+      if(Math.floor(itemArray[i].x) < Math.floor(itemArray[o].x) && Math.floor(itemArray[i].y) < Math.floor(itemArray[o].y)){
         rank++;
       }
     }
